@@ -1,0 +1,28 @@
+{
+  "name": "gestor-cred",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Credenciais - Interface web para gerenciamento seguro de credenciais",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "credentials",
+    "management",
+    "security",
+    "web-app",
+    "javascript"
+  ],
+  "author": "João Pedro AI Visionary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joao-Pedro-AI-Visionary/gestor_cred.git"
+  },
+  "homepage": "https://github.com/Joao-Pedro-AI-Visionary/gestor_cred#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
