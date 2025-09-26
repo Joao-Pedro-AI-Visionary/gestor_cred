@@ -1,0 +1,73 @@
+# Gestor Cred - Arquivo de Proteção de Dados Sensíveis
+
+# Chaves API e Configurações Sensíveis
+*.env
+.env*
+config/api-keys.json
+config/secrets.json
+
+# Dados de Usuário e Propostas
+data/
+uploads/
+temp/
+cache/
+*.pdf
+propostas_extraidas/
+
+# Logs e Arquivos Temporários
+logs/
+*.log
+*.tmp
+*.temp
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (caso seja expandido futuramente)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup e Arquivos de Recuperação
+backup/
+*.bak
+*.backup
+
+# Arquivos de Configuração Local
+local-config.json
+user-settings.json
+
+# Dados de Teste
+test-data/
+sample-pdfs/
+
+# Arquivos de Build (caso seja expandido)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Certificados e Chaves
+*.pem
+*.key
+*.crt
+*.p12
+
+# Arquivos de Banco de Dados Local
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache do Browser
+.cache/
+browser-cache/
