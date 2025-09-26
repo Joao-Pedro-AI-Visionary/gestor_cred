@@ -1,20 +1,8 @@
 {
-  "version": 2,
-  "name": "gestor-cred",
-  "builds": [
+  "rewrites": [
     {
-      "src": "gestor_cred_system.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/gestor_cred_system.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/gestor_cred_system.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
